@@ -52,7 +52,7 @@ data_transform = {
     )
 }
 
-image_path = "/data/xiziyi/CG/DsTok/raw"
+image_path = "/data/CG/DsTok/raw"
 
 train_dataset = datasets.ImageFolder(root=image_path + '/train',
                                      transform=data_transform['train']
